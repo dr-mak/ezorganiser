@@ -58,9 +58,6 @@ public class WelcomeController {
 
 	}
 	
-	@RequestMapping(value = "/getNotes/", method = RequestMethod.GET)
-	public @ResponseBody String getNotes() {
-		return new Gson().toJson(NoteOperations.getNote("DR"));
-	}
+	
 	
 }
